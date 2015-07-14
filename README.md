@@ -9,12 +9,13 @@ It is for these reasons that the Career Center would like a user friendly web ap
 
 ## Contributors
 
-- Kawika Bader - kawikabader
-- Ben Behrend - bbehr
-- Donna Tabique - donnatabique
-- Jaime Wallitschek - jwallits
-- Zhengping - zduan2
+- Kawika Bader, Team Member - kawikabader
+- Ben Behrend, Product Owner - bbehr
+- Donna Tabique, Scrum Master - donnatabique
+- Jaime Wallitschek, Team Member - jwallits
+- Zhengping Duan, Team Member - zduan2
 
+[![Stories in Ready](https://badge.waffle.io/asu-cis440-summer/career-center-MEAN.machine.svg?label=ready&title=Ready)](http://waffle.io/asu-cis440-summer/career-center-MEAN.machine)
 
 ## Change Log
 - v0.1 Birth of the initial README.md
