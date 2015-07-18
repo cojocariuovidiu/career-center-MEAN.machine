@@ -46,6 +46,19 @@ namespace ClassProject
 		}
 	]
 
+	//create variables for users
+	_id: USER_ID
+	firstName: FIRST_NAME,
+	lastName: LAST_NAME,
+	userName: USER_NAME,
+	password: PASSWORD,
+	email: EMAIL,
+	major: MAJOR_NAME,
+	graduation: GRAD_DATE,
+	gender: GENDER,
+	age: AGE,
+	
+
  
 	//disconnect from mongo server
 	mongo.Disconnect(); 
