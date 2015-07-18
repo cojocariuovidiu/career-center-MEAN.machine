@@ -25,6 +25,7 @@ namespace ClassProject
         //create variables for document
 	_id: POST_ID
 	title: TITLE_OF_POST, 
+	date: TIME_DATE_OF_POST,
 	description: POST_DESCRIPTION,
 	by: POST_BY,
 	url: URL_OF_POST,
