@@ -9,11 +9,13 @@ It is for these reasons that the Career Center would like a user friendly web ap
 
 ## Contributors
 
-- Kawika Bader, Team Member - [kawikabader](https://github.com/kawikabader)
-- Ben Behrend, Product Owner - [bbehr](https://github.com/bbehr)
-- Donna Tabique, Scrum Master - [donnatabique](https://github.com/donnatabique)
-- Jaime Wallitschek, Team Member - [jwallits](https://github.com/jwallits)
-- Zhengping Duan, Team Member - [zduan2](https://gibhub.com/zduan2)
+|Name | Role  | Github   |
+|---|---|---|
+| Ben Behrend | Product Owner | [bbehr](https://github.com/bbehr) |
+| Donna Tabique  | Scrum Master  | [donnatabique](https://github.com/donnatabique)  |
+| Jaime Wallitschek | Team Member | [jwallits](https://github.com/jwallits)  |
+| Kawika Bader | Team Member | [kawikabader](https://github.com/kawikabader)  |
+| Zhengping Duan | Team Member | [zduan2](https://gibhub.com/zduan2)  |
 
 [![Stories in Ready](https://badge.waffle.io/asu-cis440-summer/career-center-MEAN.machine.svg?label=ready&title=Ready)](http://waffle.io/asu-cis440-summer/career-center-MEAN.machine)
 
@@ -21,13 +23,13 @@ It is for these reasons that the Career Center would like a user friendly web ap
 - v0.1 Birth of the initial README.md
 
 ## High-Level Tasks
-[High-Level Tasks](https://github.com/asu-cis440-summer/career-center-MEAN.machine/blob/master/highleveltasks.md)
+* [High-Level Tasks](https://github.com/asu-cis440-summer/career-center-MEAN.machine/blob/master/highleveltasks.md)
 
 ## Product Backlog
-[Product Backlog](https://github.com/asu-cis440-summer/career-center-MEAN.machine/blob/master/productbacklog.md)
+* [Product Backlog](https://github.com/asu-cis440-summer/career-center-MEAN.machine/blob/master/productbacklog.md)
 
 ## Secondary/Future Features
-[Secondary/Future Features](https://github.com/asu-cis440-summer/career-center-MEAN.machine/blob/master/futurefeatures.md)
+* [Secondary/Future Features](https://github.com/asu-cis440-summer/career-center-MEAN.machine/blob/master/futurefeatures.md)
 
 ## Documentation
 * [Release 0.2 Documentation](https://github.com/asu-cis440-summer/career-center-MEAN.machine/blob/master/Version0.2Documentation.pdf)
