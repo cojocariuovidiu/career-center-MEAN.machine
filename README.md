@@ -21,13 +21,13 @@ It is for these reasons that the Career Center would like a user friendly web ap
 - v0.1 Birth of the initial README.md
 
 ## High-Level Tasks
-[High-Level Tasks]https://github.com/asu-cis440-summer/career-center-MEAN.machine/blob/master/highleveltasks.md
+[High-Level Tasks](https://github.com/asu-cis440-summer/career-center-MEAN.machine/blob/master/highleveltasks.md)
 
 ## Product Backlog
-[Product Backlog]https://github.com/asu-cis440-summer/career-center-MEAN.machine/blob/master/productbacklog.md
+[Product Backlog](https://github.com/asu-cis440-summer/career-center-MEAN.machine/blob/master/productbacklog.md)
 
 ## Secondary/Future Features
-[Secondary/Future Features]https://github.com/asu-cis440-summer/career-center-MEAN.machine/blob/master/futurefeatures.md
+[Secondary/Future Features](https://github.com/asu-cis440-summer/career-center-MEAN.machine/blob/master/futurefeatures.md)
 
 ## Documentation
-* [Release 0.2 Documentation] https://github.com/asu-cis440-summer/career-center-MEAN.machine/blob/master/Version0.2Documentation.pdf
+* [Release 0.2 Documentation](https://github.com/asu-cis440-summer/career-center-MEAN.machine/blob/master/Version0.2Documentation.pdf)
