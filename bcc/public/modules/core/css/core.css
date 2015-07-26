@@ -14,12 +14,20 @@
 	border-color: #78FA89;
 }
 
+.navbar-inverse {
+  background-image: none;
+  background-color: #ffb310;
+} 
+
 .navbar-inverse .navbar-nav > li > a {
   color: #000000;
+  font-weight: 200;
+    margin-top: 1%;
 }
 
 .navbar-inverse .navbar-toggle {
   border-color: #ffb310;
+   
 }
 
 .jumbotron {
@@ -46,6 +54,8 @@
 
 .navbar-inverse .navbar-brand {
   color: #000000;
+  background-color: #ffb310;
+  text-shadow: 1x 1px #d3d3d3;
 }
 
 .navbar-custom {
@@ -53,6 +63,30 @@
   border-color: #ffb310;
 }
 
-.navbar-asu {
-    color: #000000;
+.navbar {
+    border: none;
+} 
+
+.row {
+ margin-left: 0;   
+ margin-right: 5px;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #000000;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    background-color: #ffffff;
+}
+
+.container > .navbar-header, .container-fluid > .navbar-header {
+    opacity: 0.9;
+}
+
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 15px;
+  height: 2px;
+  border-radius: 1px;
 }
