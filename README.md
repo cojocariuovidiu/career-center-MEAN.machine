@@ -21,6 +21,8 @@ It is for these reasons that the Career Center would like a user friendly web ap
 
 ## Change Log
 - v0.1 Birth of the initial README.md
+- v0.2 Creation of basic MEAN technology stack structure, folder "bcc"
+- v0.3 ...
 
 ## High-Level Tasks
 * [High-Level Tasks](https://github.com/asu-cis440-summer/career-center-MEAN.machine/blob/master/highleveltasks.md)
