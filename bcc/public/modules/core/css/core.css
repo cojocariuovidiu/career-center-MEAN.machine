@@ -22,7 +22,8 @@
 .navbar-inverse .navbar-nav > li > a {
   color: #000000;
   font-weight: 200;
-    margin-top: 1%;
+    margin-top: 0;
+    background-color: #ffb310;
 }
 
 .navbar-inverse .navbar-toggle {
@@ -45,7 +46,7 @@
 
 .navbar-inverse .navbar-nav > .active > a:focus {
   color: #fff;
-  background-color: #080808;
+  background-color: #ffffff;
 }
 
 .navbar-toggle {
@@ -89,4 +90,24 @@
   width: 15px;
   height: 2px;
   border-radius: 1px;
+}
+
+.navbar .nav > li > a {
+ background-color: #ffb310;   
+}
+
+.navbar .nav > li > a {
+ background-color: none;   
+}
+
+
+.navbar-inverse .navbar-nav .open .dropdown-menu .divider {
+    background-color: #ffffff;
+  }
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+  color: #fff;
+  background-color: #000000;
 }
