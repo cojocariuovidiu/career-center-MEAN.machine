@@ -34,4 +34,5 @@ It is for these reasons that the Career Center would like a user friendly web ap
 * [Secondary/Future Features](https://github.com/asu-cis440-summer/career-center-MEAN.machine/blob/master/futurefeatures.md)
 
 ## Documentation
-* [Release 0.2 Documentation](https://github.com/asu-cis440-summer/career-center-MEAN.machine/blob/master/Version0.2Documentation.pdf)
+* [Release 0.2 Documentation](https://github.com/asu-cis440-summer/career-center-MEAN.machine/blob/master/Documentation/Version0.2Documentation.pdf)
+* [Release 0.3 User Testing](https://github.com/asu-cis440-summer/career-center-MEAN.machine/blob/master/Documentation/Version0.3UserTesting.pdf)
