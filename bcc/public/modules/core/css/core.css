@@ -111,3 +111,6 @@
   color: #fff;
   background-color: #000000;
 }
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    color: #000000;
+}
