@@ -39,7 +39,8 @@ var UserSchema = new Schema({
 	},
 	displayName: {
 		type: String,
-		trim: true
+		trim: true,
+		validate: [validateLocalStrategyProperty, 'Please fill in a display name']
 	},
 	email: {
 		type: String,
@@ -48,6 +49,24 @@ var UserSchema = new Schema({
 		validate: [validateLocalStrategyProperty, 'Please fill in your email'],
 		match: [/.+\@.+\..+/, 'Please fill a valid email address']
 	},
+	major: {
+		type: String,
+		trim: true,
+		validate: [validateLocalStrategyPropery, 'Please fill in your major']
+	},
+	gradDate: {
+		type: Date,
+		trim: true,
+		default: '',
+	},
+	gender: {
+		type: String,
+		trim: true
+	},
+	age: {
+		type: Number,
+		trim: true
+	}
 	username: {
 		type: String,
 		unique: 'testing error message',
