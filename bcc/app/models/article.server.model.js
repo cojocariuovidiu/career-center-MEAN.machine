@@ -20,6 +20,11 @@ var ArticleSchema = new Schema({
 		trim: true,
 		required: 'Title cannot be blank'
 	},
+	description: {
+		type: String,
+		default: '',
+		trim: true
+	},
 	content: {
 		type: String,
 		default: '',
@@ -28,6 +33,14 @@ var ArticleSchema = new Schema({
 	user: {
 		type: Schema.ObjectId,
 		ref: 'User'
+	},
+	likes: {
+		type: Number,
+		default: 0
+	},
+	views: {
+		type: Number,
+		default: 0
 	}
 });
 
