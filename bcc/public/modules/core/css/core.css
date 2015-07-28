@@ -1,23 +1,23 @@
 .content {
-	margin-top: 50px;
+    margin-top: 50px;
 }
 .undecorated-link:hover {
-	text-decoration: none;
+    text-decoration: none;
 }
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
-	display: none !important;
+    display: none !important;
 }
 .ng-invalid.ng-dirty {
-	border-color: #FA787E;
+    border-color: #FA787E;
 }
 .ng-valid.ng-dirty {
-	border-color: #78FA89;
+    border-color: #78FA89;
 }
 
 .navbar-inverse {
   background-image: none;
   background-color: #ffb310;
-} 
+}
 
 .navbar-inverse .navbar-nav > li > a {
   color: #000000;
@@ -28,7 +28,7 @@
 
 .navbar-inverse .navbar-toggle {
   border-color: #ffb310;
-   
+
 }
 
 .jumbotron {
@@ -56,7 +56,7 @@
 .navbar-inverse .navbar-brand {
   color: #000000;
   background-color: #ffb310;
-  text-shadow: 1x 1px #d3d3d3;
+  text-shadow: 1px 1px #d3d3d3;
 }
 
 .navbar-custom {
@@ -66,10 +66,10 @@
 
 .navbar {
     border: none;
-} 
+}
 
 .row {
- margin-left: 0;   
+ margin-left: 0;
  margin-right: 5px;
 }
 
@@ -93,11 +93,11 @@
 }
 
 .navbar .nav > li > a {
- background-color: #ffb310;   
+ background-color: #ffb310;
 }
 
 .navbar .nav > li > a {
- background-color: none;   
+ background-color: none;
 }
 
 
@@ -113,4 +113,23 @@
 }
 .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
     color: #000000;
+}
+
+.well {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2%;
+    margin-bottom: 2%;
+}
+
+.well > img {
+    padding-left: 10%;
+    padding-bottom: 1%;
+    float: left;
+    max-height: auto;
+    min-height: auto;
+}
+
+.well > p {
+    padding-right: 10%;
 }
