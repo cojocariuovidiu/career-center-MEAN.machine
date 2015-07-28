@@ -39,8 +39,7 @@ var UserSchema = new Schema({
 	},
 	displayName: {
 		type: String,
-		trim: true,
-		validate: [validateLocalStrategyProperty, 'Please fill in a display name']
+		trim: true
 	},
 	email: {
 		type: String,
@@ -49,24 +48,6 @@ var UserSchema = new Schema({
 		validate: [validateLocalStrategyProperty, 'Please fill in your email'],
 		match: [/.+\@.+\..+/, 'Please fill a valid email address']
 	},
-	major: {
-		type: String,
-		trim: true,
-		validate: [validateLocalStrategyPropery, 'Please fill in your major']
-	},
-	gradDate: {
-		type: Date,
-		trim: true,
-		default: '',
-	},
-	gender: {
-		type: String,
-		trim: true
-	},
-	age: {
-		type: Number,
-		trim: true
-	}
 	username: {
 		type: String,
 		unique: 'testing error message',
@@ -78,6 +59,38 @@ var UserSchema = new Schema({
 		default: '',
 		validate: [validateLocalStrategyPassword, 'Password should be longer']
 	},
+    major: {
+        type: String,
+        trim: true,
+        default:'',
+        validate: [validateLocalStrategyProperty, 'Please fill in your major']
+    },
+    
+    age: {
+        type: String,
+        trim: true,
+        default:'',
+        validate: [validateLocalStrategyProperty, 'Please fill in your age']
+    },
+    
+    gender: {
+    	type: String,
+    	trim: true,
+    	default:'',
+    	validate: [validateLocalStrategyProperty, 'Please fill in your gender']    
+    },
+    
+    gradDate: {
+    	type: String,
+    	trim: true,
+    	default:'',
+    	validate: [validateLocalStrategyProperty, 'Please fill in your graduation Date']    
+    },
+    
+    
+                            
+                            
+    
 	salt: {
 		type: String
 	},
@@ -109,7 +122,6 @@ var UserSchema = new Schema({
 		type: Date
 	}
 });
-
 /**
  * Hook a pre save method to hash the password
  */
