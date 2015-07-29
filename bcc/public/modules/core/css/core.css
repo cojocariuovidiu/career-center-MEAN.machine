@@ -115,21 +115,8 @@
     color: #000000;
 }
 
-.well {
-    margin-left: 10%;
-    margin-right: 10%;
-    padding: 2%;
-    margin-bottom: 2%;
-}
-
-.well > img {
-    padding-left: 10%;
-    padding-bottom: 1%;
-    float: left;
-    max-height: auto;
-    min-height: auto;
-}
-
-.well > p {
-    padding-right: 10%;
+.col-sm-6 img{
+  margin: 0 auto;
+  width: 250px;
+   height:200px;
 }
