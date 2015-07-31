@@ -33,6 +33,21 @@ angular.module('users').config(['$stateProvider',
             url: '/calendar',
             templateUrl: 'modules/core/views/calendar.client.view.html'
         }).
+<<<<<<< Updated upstream
+=======
+        state('gradclub', {
+            url: '/gradclub',
+            templateUrl: 'modules/core/views/construction.client.view.html'
+        }).
+        state('tools', {
+            url: '/tools',
+            templateUrl: 'modules/core/views/tools.client.view.html'
+        }).
+        state('more', {
+            url: '/more',
+            templateUrl: 'modules/core/views/more.client.view.html'
+        }).
+>>>>>>> Stashed changes
         state('forgot', {
             url: '/password/forgot',
             templateUrl: 'modules/users/views/password/forgot-password.client.view.html'
