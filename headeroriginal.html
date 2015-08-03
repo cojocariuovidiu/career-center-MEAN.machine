@@ -27,43 +27,35 @@
                 <a ng-switch-default href="/#!/{{item.link}}" data-ng-bind="item.title"></a>
             </li>
         </ul>
-        
-        <div id="sidebar-wrapper">
-            <ul class="sidebar-nav" class="col-md-4">
-                <li class="sidebar-brand">
-                    <ul data-ng-hide="authentication.user">
-                        <li ui-route="/signup" ng-class="{active: $uiRoute}">
-                            <a href="/#!/signup">SIGN UP</a>
-                        </li>
-                        <!--<li class="divider-vertical"></li>-->
-                        <li ui-route="/signin" ng-class="{active: $uiRoute}">
-                            <a href="/#!/signin">SIGN IN</a>
-                        </li>
-                        <li class="divider-vertical"></li>
-                        <li ui-route="/calendar" ng-class="{active: $uiRoute}">
-                            <a href="/#!/calendar">CALENDAR</a>
-                        </li>
-                        <li class="divider-vertical"></li>
-                        <li ui-route="/fouryearplan" ng-class="{active: $uiRoute}">
-                            <a href="/#!/fouryearplan">FOUR YEAR PLAN</a>
-                        </li>
-                        <li class="divider-vertical"></li>
-                        <li ui-route="/gradclub" ng-class="{active: $uiRoute}">
-                            <a href="/#!/gradclub">GRAD CLUB</a>
-                        </li>
-                        <li class="divider-vertical"></li>
-                        <li ui-route="/tools" ng-class="{active: $uiRoute}">
-                            <a href="/#!/tools">TOOLS</a>
-                        </li>
-                        <li class="divider-vertical"></li>
-                        <li ui-route="/more" ng-class="{active: $uiRoute}">
-                            <a href="/#!/more">MORE</a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-                    
+        <ul class="nav navbar-nav navbar-left" data-ng-hide="authentication.user">
+            <li ui-route="/signup" ng-class="{active: $uiRoute}">
+                <a href="/#!/signup">Sign Up</a>
+            </li>
+            <li class="divider-vertical"></li>
+            <li ui-route="/signin" ng-class="{active: $uiRoute}">
+                <a href="/#!/signin">Sign In</a>
+            </li>
+            <li class="divider-vertical"></li>
+            <li ui-route="/calendar" ng-class="{active: $uiRoute}">
+                <a href="/#!/calendar">Calendar</a>
+            </li>
+            <li class="divider-vertical"></li>
+            <li ui-route="/fouryearplan" ng-class="{active: $uiRoute}">
+                <a href="/#!/fouryearplan">Four Year Plan</a>
+            </li>
+            <li class="divider-vertical"></li>
+            <li ui-route="/gradclub" ng-class="{active: $uiRoute}">
+                <a href="/#!/gradclub">Grad Club</a>
+            </li>
+            <li class="divider-vertical"></li>
+            <li ui-route="/tools" ng-class="{active: $uiRoute}">
+                <a href="/#!/tools">Tools</a>
+            </li>
+            <li class="divider-vertical"></li>
+            <li ui-route="/more" ng-class="{active: $uiRoute}">
+                <a href="/#!/more">More</a>
+            </li>
+        </ul>
         <ul class="nav navbar-nav navbar-left" data-ng-show="authentication.user">
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -88,6 +80,3 @@
         </ul>
     </nav>
 </div>
-
-
-
