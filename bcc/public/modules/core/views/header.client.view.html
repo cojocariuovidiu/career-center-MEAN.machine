@@ -7,7 +7,8 @@
             <span class="icon-bar"></span>
         </button>
 
-        <div class="row navbar-custom"><a href="/#!/" class="navbar-brand">Business Career Center</a></div>
+        <div class="row navbar-custom"><a href="/#!/" class="navbar-brand">Business Career Center</a>
+        </div>
 
     </div>
 
@@ -27,7 +28,7 @@
                 <a ng-switch-default href="/#!/{{item.link}}" data-ng-bind="item.title"></a>
             </li>
         </ul>
-        
+
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav" class="col-md-4">
                 <li class="sidebar-brand">
@@ -47,10 +48,10 @@
                         <li ui-route="/fouryearplan" ng-class="{active: $uiRoute}">
                             <a href="/#!/fouryearplan">FOUR YEAR PLAN</a>
                         </li>
-                        <li class="divider-vertical"></li>
+                        <!--                         <li class="divider-vertical"></li>
                         <li ui-route="/gradclub" ng-class="{active: $uiRoute}">
                             <a href="/#!/gradclub">GRAD CLUB</a>
-                        </li>
+                        </li> -->
                         <li class="divider-vertical"></li>
                         <li ui-route="/tools" ng-class="{active: $uiRoute}">
                             <a href="/#!/tools">TOOLS</a>
@@ -63,7 +64,7 @@
                 </li>
             </ul>
         </div>
-                    
+
         <ul class="nav navbar-nav navbar-left" data-ng-show="authentication.user">
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -88,6 +89,3 @@
         </ul>
     </nav>
 </div>
-
-
-
