@@ -104,7 +104,7 @@ ul li {
     color: #000000;
     background-color: #ffb310;
     /*    text-shadow: 1px 1px #d3d3d3;*/
-
+    
     font-size: 2rem;
 }
 
@@ -234,6 +234,14 @@ ul li {
     padding-right: 10%;
 }
 
+.signuph3 {
+    margin-top: 50%;
+}
+
+.signup {
+    margin: 5% 50% 0% 25%;
+}
+
 .transition (@value1,
 @value2: X,
 ...) {
@@ -317,8 +325,7 @@ menu {
     }
 <<<<<<< Updated upstream
 }*/
-}*/
-
-#noUnder a:hover {
+}
+*/ #noUnder a:hover {
     text-decoration: none;
 }

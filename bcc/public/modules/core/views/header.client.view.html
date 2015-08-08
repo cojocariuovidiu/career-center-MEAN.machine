@@ -29,6 +29,7 @@
             </li>
         </ul>
 
+        <!-- WHEN USER IS NOT SIGNED IN-->
         <ul class="nav navbar-nav navbar-left" data-ng-hide="authentication.user">
             <li ui-route="/signup" ng-class="{active: $uiRoute}">
                 <a href="/#!/signup">Sign Up</a>
@@ -46,10 +47,12 @@
                 <a href="/#!/fouryearplan">FOUR YEAR PLAN</a>
             </li>
 
-            <!--             <li class="divider-vertical"></li>
-            <li ui-route="/gradclub" ng-class="{active: $uiRoute}">
-                <a href="/#!/gradclub">GRAD CLUB</a>
-            </li> -->
+            <!-- FOR GRAD CLUB MENU SELECTION             
+                <li class="divider-vertical"></li>
+                <li ui-route="/gradclub" ng-class="{active: $uiRoute}">
+                    <a href="/#!/gradclub">GRAD CLUB</a>
+                </li>
+            -->
 
             <li class="divider-vertical"></li>
             <li ui-route="/tools" ng-class="{active: $uiRoute}">
@@ -60,6 +63,8 @@
                 <a href="/#!/more">MORE</a>
             </li>
         </ul>
+
+        <!-- WHEN USER IS SIGNED IN -->
         <ul class="nav navbar-nav navbar-left" data-ng-show="authentication.user">
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -80,6 +85,30 @@
                         <a href="/auth/signout">Signout</a>
                     </li>
                 </ul>
+                <li class="divider-vertical"></li>
+                <li ui-route="/calendar" ng-class="{active: $uiRoute}">
+                    <a href="http://www.calendarasu.net78.net" target="_blank">CALENDAR</a>
+                </li>
+                <li class="divider-vertical"></li>
+                <li ui-route="/fouryearplan" ng-class="{active: $uiRoute}">
+                    <a href="/#!/fouryearplan">FOUR YEAR PLAN</a>
+                </li>
+
+                <!-- FOR GRAD CLUB MENU SELECTION             
+                <li class="divider-vertical"></li>
+                <li ui-route="/gradclub" ng-class="{active: $uiRoute}">
+                    <a href="/#!/gradclub">GRAD CLUB</a>
+                </li>
+                -->
+
+                <li class="divider-vertical"></li>
+                <li ui-route="/tools" ng-class="{active: $uiRoute}">
+                    <a href="/#!/tools">TOOLS</a>
+                </li>
+                <li class="divider-vertical"></li>
+                <li ui-route="/more" ng-class="{active: $uiRoute}">
+                    <a href="/#!/more">MORE</a>
+                </li>
             </li>
         </ul>
     </nav>

@@ -1,7 +1,7 @@
 <section class="row" data-ng-controller="AuthenticationController">
     <script type="text/javascript" src="js/process1/signup.js"></script>
 
-	<!--<h3 class="col-md-12 text-center">Sign up using your social accounts</h3>
+    <!--<h3 class="col-md-12 text-center">Sign up using your social accounts</h3>
 	<div class="col-md-12 text-center">
 		<a href="/auth/facebook" class="undecorated-link">
 			<img src="/modules/users/img/buttons/facebook.png">
@@ -19,82 +19,81 @@
 			<img src="/modules/users/img/buttons/github.png">
 		</a>
 	</div>-->
-<h3 class="col-md-12 text-center">sign up with your e-mail</h3>
-	<div class="col-xs-offset-4 col-xs-5 col-sm-6 col-sm-6">
-		<form name="userForm" data-ng-submit="signup()" class="signin form-horizontal" novalidate autocomplete="off">
-			<fieldset>
-				<div class="form-group pull-left">
-					<label for="firstName">First Name</label>
-					<input type="text" required id="firstName" name="firstName" class="form-control" data-ng-model="credentials.firstName" placeholder="First Name">
-				</div>
-				<div class="form-group pull-right">
-					<label for="lastName">Last Name</label>
-					<input type="text" id="lastName" name="lastName" class="form-control" data-ng-model="credentials.lastName" placeholder="Last Name">
-				</div>
-                
-				<div class="form-group">
-					<label for="email">Email</label>
-					<input type="email" id="email" name="email" class="form-control" data-ng-model="credentials.email" placeholder="Email">
-                    </br>
-				</div>
-				<div class="form-group pull-left">
-					<label for="username">Username</label>
-					<input type="text" id="username" name="username" class="form-control" data-ng-model="credentials.username" placeholder="Username">
-				</div>
-				<div class="form-group pull-right">
-					<label for="password">Password</label>
-					<input type="password" id="password" name="password" class="form-control" data-ng-model="credentials.password" placeholder="Password">
-				</div>
- 
-                <!-- integrate with mongodb/angularjs -->
+    <h3 class="col-md-12 text-center">sign up with your e-mail</h3>
+    <div class="signup col-xs-offset-6 col-xs-6 col-sm-6 col-sm-6">
+        <form name="userForm" data-ng-submit="signup()" class="signin form-horizontal" novalidate autocomplete="off">
+            <fieldset>
                 <div class="form-group pull-left">
-                    <label for="major">Major</label>
+                    <!--					<label for="firstName">First Name</label>-->
+                    <input type="text" required id="firstName" name="firstName" class="form-control" data-ng-model="credentials.firstName" placeholder="First Name">
+                </div>
+                <div class="form-group pull-right">
+                    <!--					<label for="lastName">Last Name</label>-->
+                    <input type="text" id="lastName" name="lastName" class="form-control" data-ng-model="credentials.lastName" placeholder="Last Name">
+                </div>
+
+                <div class="form-group">
+                    <!--					<label for="email">Email</label>-->
+                    <input type="email" id="email" name="email" class="form-control" data-ng-model="credentials.email" placeholder="Email">
+                    </br>
+                </div>
+                <div class="form-group pull-left">
+                    <!--					<label for="username">Username</label>-->
+                    <input type="text" id="username" name="username" class="form-control" data-ng-model="credentials.username" placeholder="Username">
+                </div>
+                <div class="form-group pull-right">
+                    <!--					<label for="password">Password</label>-->
+                    <input type="password" id="password" name="password" class="form-control" data-ng-model="credentials.password" placeholder="Password">
+                </div>
+
+                <div class="form-group pull-left">
+                    <!--                    <label for="major">Major</label>-->
                     <select type="text" id="major" name="major" class="form-control" data-ng-model="credentials.major" placeholder="Major">
-                    	<option value="" disabled="disabled" selected="selected">Major</option>
-                    	<option value="Accounting">Accounting</option>
-                    	<option value="Business Data Analytics">Business Data Analytics</option>
-                    	<option value="Business Entrepreneurship">Business Entrepreneurship</option>
-                    	<option value="Computer Information Systems">Computer Information Systems</option>
-                    	<option value="Economics">Economics</option>
-                    	<option value="Economics/Engineering">Economics/Engineering</option>
-                    	<option value="Management">Management</option>
-                    	<option value="Finance">Finance</option>
-                    	<option value="Marketing">Marketing</option>
-                    	<option value="Supply Chain Management">Supply Chain Management</option>                    	
+                        <option value="" disabled="disabled" selected="selected">Major</option>
+                        <option value="Accounting">Accounting</option>
+                        <option value="Business Data Analytics">Business Data Analytics</option>
+                        <option value="Business Entrepreneurship">Business Entrepreneurship</option>
+                        <option value="Computer Information Systems">Computer Information Systems</option>
+                        <option value="Economics">Economics</option>
+                        <option value="Economics/Engineering">Economics/Engineering</option>
+                        <option value="Management">Management</option>
+                        <option value="Finance">Finance</option>
+                        <option value="Marketing">Marketing</option>
+                        <option value="Supply Chain Management">Supply Chain Management</option>
                     </select>
                 </div>
-            
-                
+
+
 
                 <div class="form-group pull-right">
-                    <label for="gradDate">Graduation Date</label>
+                    <!--                    <label for="gradDate">Graduation Date</label>-->
                     <select type="text" id="gradDate" name="gradDate" class="form-control" data-ng-model="credentials.gradDate" placeholder="MM/YYYY">
-                    	<option value="" disabled="disabled" selected="selected">Graduation Date</option>
-                    	<option value="summer 2015">Summer 2015</option>
-                    	<option value="fall 2015">Fall 2015</option>
-                    	<option value="Spring 2016">Spring 2016</option>
-                    	<option value="summer 2016">Summer 2016</option>
-                    	<option value="Fall 2016">Fall 2016</option>
-                    	<option value="Spring 2017">Spring 2017</option>
+                        <option value="" disabled="disabled" selected="selected">Graduation Date</option>
+                        <option value="summer 2015">Summer 2015</option>
+                        <option value="fall 2015">Fall 2015</option>
+                        <option value="Spring 2016">Spring 2016</option>
+                        <option value="summer 2016">Summer 2016</option>
+                        <option value="Fall 2016">Fall 2016</option>
+                        <option value="Spring 2017">Spring 2017</option>
                         <option value="Spring 2017">Summer 2017</option>
                         <option value="Spring 2017">Fall 2017</option>
                         <option value="Spring 2017">Spring 2018</option>
-                        
+
                     </select>
                 </div>
 
                 <div class="form-group">
-                    <label for="gender">Gender</label>
+                    <!--                    <label for="gender">Gender</label>-->
                     <select type="text" id="gender" name="gender" class="form-control" data-ng-model="credentials.gender" placeholder="Gender">
-                    	<option value="" disabled="disabled" selected="selected">Gender</option>
-                    	<option value="Male">Male</option>
-                    	<option value="Female">Female</option>
+                        <option value="" disabled="disabled" selected="selected">Gender</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
                         <option value="Female">Other</option>
                     </select>
                 </div>
 
                 <div class="form-group">
-                    <label for="age">Age</label>
+                    <!--                    <label for="age">Age</label>-->
                     <input type="text" id="age" name="age" class="form-control" data-ng-model="credentials.age" placeholder="Age">
                 </div>
 
