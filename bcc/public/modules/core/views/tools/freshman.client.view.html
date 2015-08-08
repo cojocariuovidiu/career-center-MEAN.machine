@@ -1,0 +1,53 @@
+<script>
+    var model = {
+        user: "Adam",
+        items: [{
+            action: "Buy Flowers",
+            done: false
+        }, {
+            action: "Get Shoes",
+            done: false
+        }, {
+            action: "Collect Tickets",
+            done: true
+        }, {
+            action: "Call Joe",
+            done: false
+        }]
+    };
+    var todoApp = angular.module(" todoApp", []);
+    todoApp.controller(" ToDoCtrl", function ($ scope) {
+        $ scope.todo = model;
+        $ scope.incompleteCount = function () {
+            var count = 0;
+            angular.forEach($ scope.todo.items, function (item) {
+                if (!item.done) {
+                    count + +
+                }
+            });
+            return count;
+        }
+    });
+</script>
+
+<div class=" panel">
+    <br>
+
+    <table class=" table table-striped">
+        <thead>
+            <tr>
+                <th>
+                    <h2>Description</h2>
+                </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>
+                    <h4>Get A Girlfriend</h4>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
