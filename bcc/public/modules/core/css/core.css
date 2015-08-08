@@ -72,8 +72,7 @@ ul li {
 }
 
 .customBtn {
-    background-color: lightgray;
-    padding: 2%;
+    padding: 1%;
     margin: 1%;
 }
 
@@ -103,7 +102,7 @@ ul li {
     color: #000000;
     background-color: #ffb310;
     /*    text-shadow: 1px 1px #d3d3d3;*/
-    
+
     font-size: 2rem;
 }
 
@@ -210,8 +209,14 @@ ul li {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
 }
-/*
 
+.line-separator {
+    height: 7px;
+    background: #E6E6E6;
+    border-top: 1px solid gray;
+    border-radius: 25px;
+}
+/*
 menu {
     display: block;
     @menu-width: 250px;
@@ -259,4 +264,10 @@ menu {
             }
         }
     }
+<<<<<<< Updated upstream
 }*/
+}*/
+
+#noUnder a:hover {
+    text-decoration: none;
+}
