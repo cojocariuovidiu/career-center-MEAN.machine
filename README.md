@@ -22,9 +22,9 @@ It is for these reasons that the Career Center would like a user friendly web ap
 ## Change Log
 - v0.1 Birth of the initial README.md
 - v0.2 Creation of basic MEAN technology stack structure, folder "bcc"
-- v0.3 ...
-- v0.4 ...
-- v1.0 ...
+- v0.3 User testing and feedback based enchancements
+- v0.4 Substantially completed scoped remaining features
+- v1.0 Present demonstration and overview project evolution
 
 ## High-Level Tasks
 * [High-Level Tasks](https://github.com/asu-cis440-summer/career-center-MEAN.machine/blob/master/highleveltasks.md)
@@ -38,6 +38,7 @@ It is for these reasons that the Career Center would like a user friendly web ap
 ## Documentation
 * [Release 0.2 Documentation](https://github.com/asu-cis440-summer/career-center-MEAN.machine/blob/master/Documentation/Version0.2Documentation.pdf)
 * [Release 0.3 User Testing](https://github.com/asu-cis440-summer/career-center-MEAN.machine/blob/master/Documentation/Version0.3UserTesting.pdf)
+* Release 0.4 Documentation - STILL NEEDED, NOT WRITTEN
 * [Release 1.0 Documentation](https://github.com/asu-cis440-summer/career-center-MEAN.machine/blob/master/Documentation/Version1.0Documentation.pdf)
 * [Project Report - IN PROGRESS](https://github.com/asu-cis440-summer/career-center-MEAN.machine/blob/master/Documentation/ProjectReport_08072015.pdf)
 * [MongoDB Client Reference](https://github.com/asu-cis440-summer/career-center-MEAN.machine/blob/master/Documentation/MongoDB_ClientReference.pdf)
