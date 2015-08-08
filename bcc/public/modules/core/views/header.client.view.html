@@ -29,10 +29,12 @@
             </li>
         </ul>
 
-        <!--<div id="sidebar-wrapper">-->
-        <ul class="sidebar-nav" class="col-md-4">
-    <li class="sidebar-brand">
-        <ul data-ng-hide="authentication.user">
+
+        <!--<div id="sidebar-wrapper">
+            <ul class="sidebar-nav" class="col-md-4">
+                <li class="sidebar-brand">
+                    <ul data-ng-hide="authentication.user">-->
+        <ul class="nav navbar-nav navbar-left" data-ng-hide="authentication.user">
             <li ui-route="/signup" ng-class="{active: $uiRoute}">
                 <a href="/#!/signup">SIGN UP</a>
             </li>
@@ -63,9 +65,9 @@
                 <a href="/#!/more">MORE</a>
             </li>
         </ul>
-    </li>
-</ul>
-<!--</div>-->
+        </li>
+        </ul>
+        <!--</div>-->
 
         <ul class="nav navbar-nav navbar-left" data-ng-show="authentication.user">
             <li class="dropdown">
