@@ -92,7 +92,7 @@ ul li {
 }
 
 .row {
-    margin-left: 0;
+    margin-left: 10px;
     margin-right: 5px;
 }
 
@@ -177,6 +177,7 @@ ul li {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
 }
+/*
 
 menu {
     display: block;
@@ -225,4 +226,4 @@ menu {
             }
         }
     }
-}
+}*/
