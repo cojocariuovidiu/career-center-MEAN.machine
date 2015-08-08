@@ -1,0 +1,28 @@
+<div ng-app="todoApp">
+    <div ng-controller="ToDoCtrl">
+        <br>
+        <div class="input-group">
+            <input class="form-control" />
+            <span class="input-group-btn">
+            <button class="btn btn-default">Add</button>
+        </span>
+        </div>
+
+        <div class="panel">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Description</th>
+                        <th>Complete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="item in todo.items">
+                        <td>{{item.action}} </td>
+                        <td>{{item.done}} </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

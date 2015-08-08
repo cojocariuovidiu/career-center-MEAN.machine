@@ -53,6 +53,12 @@ ul li {
     border-color: #ffb310;
 }
 
+.customBtn {
+    background-color: lightgray;
+    padding: 3%;
+    margin: 1%;
+}
+
 .jumbotron {
     margin-top: 30px;
     background-color: transparent;
@@ -93,6 +99,7 @@ ul li {
 
 .row {
     margin-left: 10px;
+    margin-left: 0;
     margin-right: 5px;
 }
 

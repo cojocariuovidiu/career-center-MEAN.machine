@@ -2,7 +2,7 @@
 
 // Setting up route
 angular.module('users').config(['$stateProvider',
-    function($stateProvider) {
+    function ($stateProvider) {
         // Users state routing
         $stateProvider.
         state('profile', {
@@ -40,6 +40,30 @@ angular.module('users').config(['$stateProvider',
         state('tools', {
             url: '/tools',
             templateUrl: 'modules/core/views/tools.client.view.html'
+        }).
+        state('freshman', {
+            url: '/freshman',
+            templateUrl: 'modules/core/views/tools/freshman.client.view.html'
+        }).
+        state('sophomore', {
+            url: '/sophomore',
+            templateUrl: 'modules/core/views/tools/sophomore.client.view.html'
+        }).
+        state('junior', {
+            url: '/junior',
+            templateUrl: 'modules/core/views/tools/junior.client.view.html'
+        }).
+        state('senior', {
+            url: '/senior',
+            templateUrl: 'modules/core/views/tools/senior.client.view.html'
+        }).
+        state('job', {
+            url: '/job',
+            templateUrl: 'modules/core/views/tools/job.client.view.html'
+        }).
+        state('intern', {
+            url: '/intern',
+            templateUrl: 'modules/core/views/tools/intern.client.view.html'
         }).
         state('more', {
             url: '/more',
