@@ -9,8 +9,8 @@ It is for these reasons that the Career Center would like a user friendly web ap
 
 ## Contributors
 
-|Name | Role  | Github   |
-|-|---|---|---|
+|  |Name | Role  | Github   |
+|---|---|---|---|
 | :clipboard: | Ben Behrend | Product Owner | [bbehr](https://github.com/bbehr) |
 | :floppy_disk: | Donna Tabique  | Scrum Master  | [donnatabique](https://github.com/donnatabique)  |
 | :wrench: | Jaime Wallitschek | Team Member | [jwallits](https://github.com/jwallits)  |
