@@ -10,12 +10,12 @@ It is for these reasons that the Career Center would like a user friendly web ap
 ## Contributors
 
 |Name | Role  | Github   |
-|---|---|---|
-| Ben Behrend | Product Owner | [bbehr](https://github.com/bbehr) |
-| Donna Tabique  | Scrum Master  | [donnatabique](https://github.com/donnatabique)  |
-| Jaime Wallitschek | Team Member | [jwallits](https://github.com/jwallits)  |
-| Kawika Bader | Team Member | [kawikabader](https://github.com/kawikabader)  |
-| Zhengping Duan | Team Member | [zduan2](https://gibhub.com/zduan2)  |
+|-|---|---|---|
+| :clipboard: | Ben Behrend | Product Owner | [bbehr](https://github.com/bbehr) |
+| :floppy_disk: | Donna Tabique  | Scrum Master  | [donnatabique](https://github.com/donnatabique)  |
+| :wrench: | Jaime Wallitschek | Team Member | [jwallits](https://github.com/jwallits)  |
+| :bulb: |  Kawika Bader | Team Member | [kawikabader](https://github.com/kawikabader)  |
+| :computer: | Zhengping Duan | Team Member | [zduan2](https://gibhub.com/zduan2)  |
 
 [![Stories in Ready](https://badge.waffle.io/asu-cis440-summer/career-center-MEAN.machine.svg?label=ready&title=Ready)](http://waffle.io/asu-cis440-summer/career-center-MEAN.machine)
 
