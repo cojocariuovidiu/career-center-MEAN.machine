@@ -40,5 +40,5 @@ It is for these reasons that the Career Center would like a user friendly web ap
 * [Release 0.3 User Testing](https://github.com/asu-cis440-summer/career-center-MEAN.machine/blob/master/Documentation/Version0.3UserTesting.pdf)
 * Release 0.4 Documentation - STILL NEEDED, NOT WRITTEN
 * [Release 1.0 Documentation](https://github.com/asu-cis440-summer/career-center-MEAN.machine/blob/master/Documentation/Version1.0Documentation.pdf)
-* [Project Report - IN PROGRESS](https://github.com/asu-cis440-summer/career-center-MEAN.machine/blob/master/Documentation/ProjectReport_08072015.pdf)
+* [Project Report - IN PROGRESS](https://github.com/asu-cis440-summer/career-center-MEAN.machine/blob/master/Documentation/ProjectReportpdf)
 * [MongoDB Client Reference](https://github.com/asu-cis440-summer/career-center-MEAN.machine/blob/master/Documentation/MongoDB_ClientReference.pdf)
