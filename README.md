@@ -12,7 +12,7 @@ It is for these reasons that the Career Center would like a user friendly web ap
 |  |Name | Role  | Github   |
 |---|---|---|---|
 | :clipboard: | Ben Behrend | Product Owner | [bbehr](https://github.com/bbehr) |
-| :floppy_disk: | Donna Tabique  | Scrum Master  | [donnatabique](https://github.com/donnatabique)  |
+| :chart_with_upwards_trend: | Donna Tabique  | Scrum Master  | [donnatabique](https://github.com/donnatabique)  |
 | :wrench: | Jaime Wallitschek | Team Member | [jwallits](https://github.com/jwallits)  |
 | :bulb: |  Kawika Bader | Team Member | [kawikabader](https://github.com/kawikabader)  |
 | :computer: | Zhengping Duan | Team Member | [zduan2](https://gibhub.com/zduan2)  |
@@ -38,7 +38,7 @@ It is for these reasons that the Career Center would like a user friendly web ap
 ## Documentation
 * [Release 0.2 Documentation](https://github.com/asu-cis440-summer/career-center-MEAN.machine/blob/master/Documentation/Version0.2Documentation.pdf)
 * [Release 0.3 User Testing](https://github.com/asu-cis440-summer/career-center-MEAN.machine/blob/master/Documentation/Version0.3UserTesting.pdf)
-* Release 0.4 Documentation - STILL NEEDED, NOT WRITTEN
+* [Release 0.4 Documentation](https://github.com/asu-cis440-summer/career-center-MEAN.machine/blob/master/Documentation/Version0.4Documentation.pdf)
 * [Release 1.0 Documentation](https://github.com/asu-cis440-summer/career-center-MEAN.machine/blob/master/Documentation/Version1.0Documentation.pdf)
 * [Project Report - IN PROGRESS](https://github.com/asu-cis440-summer/career-center-MEAN.machine/blob/master/Documentation/ProjectReport.pdf)
 * [MongoDB Client Reference](https://github.com/asu-cis440-summer/career-center-MEAN.machine/blob/master/Documentation/MongoDB_ClientReference.pdf)
