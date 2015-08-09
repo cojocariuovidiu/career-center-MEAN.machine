@@ -1,8 +1,6 @@
 /* TIMELINE */
 /* --------------------------------
-
 Primary style
-
 -------------------------------- */
 
 html * {
@@ -42,9 +40,7 @@ h2 {
     font-weight: bold;
 }
 /* --------------------------------
-
 Modules - reusable parts of our design
-
 -------------------------------- */
 
 .cd-container {
@@ -63,9 +59,7 @@ Modules - reusable parts of our design
     clear: both;
 }
 /* --------------------------------
-
 Main components
-
 -------------------------------- */
 /*header {
   /*height: 100px;
