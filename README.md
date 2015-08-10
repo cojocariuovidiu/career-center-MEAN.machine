@@ -1,5 +1,5 @@
 # career-center-MEAN.machine
-Repo for team MEAN.machine
+Team MEAN.machine Repo
 
 ## Synopsis
 
@@ -41,4 +41,5 @@ It is for these reasons that the Career Center would like a user-friendly web ap
 * [Release 0.4 Documentation](https://github.com/asu-cis440-summer/career-center-MEAN.machine/blob/master/Documentation/Version0.4Documentation.pdf)
 * [Release 1.0 Documentation](https://github.com/asu-cis440-summer/career-center-MEAN.machine/blob/master/Documentation/Version1.0Documentation.pdf)
 * [Project Report](https://github.com/asu-cis440-summer/career-center-MEAN.machine/blob/master/Documentation/ProjectReport.pdf)
+* [Project Presentation](https://github.com/asu-cis440-summer/career-center-MEAN.machine/blob/master/Documentation/ProjectPresentation.pdf)
 * [MongoDB Client Reference](https://github.com/asu-cis440-summer/career-center-MEAN.machine/blob/master/Documentation/MongoDB_ClientReference.pdf)
